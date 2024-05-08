@@ -1,23 +1,31 @@
 baseURL: '/'
 languageCode: 'en-us'
-title: 'My New Hugo Site'
+title: 'samenoko__'
 theme: 'paper'
 
 permalinks:
   post: '/:year/:month/:slug/'
   page: '/:slug/'
 
+menu:
+  main:
+    - name: 'Home'
+      url: '/'
+      weight: 1
+    - name: 'About'
+      url: '/about/'
+      weight: 2
+
 params:
   # 色のスタイル
   color: light                           # linen、wheat、gray、light
 
   # ヘッダーのソーシャルアイコン
-  twitter: Ziaenso_
   rss: true                                # RSSアイコンを表示する
 
   # ホームページのプロフィール
   avatar: GRAVATAR_EMAIL                 # Gravatarのメールアドレスまたは画像URL
-  name: Ziaenso
+  name: samenoko
   bio: Hello!!
 
   # その他
