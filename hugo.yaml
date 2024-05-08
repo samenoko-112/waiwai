@@ -1,7 +1,10 @@
 baseURL: '/'
-languageCode: 'en-us'
+languageCode: 'en-jp'
 title: 'samenoko__'
 theme: 'paper'
+
+DefaultContentLanguage: 'ja'
+hasCJKLanguage: true
 
 permalinks:
   post: '/:year/:month/:slug/'
@@ -35,3 +38,5 @@ params:
   math: true                               # KaTeX数式のグローバル有効化
   favicon: "favicon.ico"                   # デフォルトのファビコンをカスタマイズする
   appleTouchIcon: "apple-touch-icon.png"   # デフォルトのAppleタッチアイコンをカスタマイズする
+
+  
