@@ -2,3 +2,24 @@ baseURL: 'https://example.org/'
 languageCode: 'en-us'
 title: 'My New Hugo Site'
 theme: 'paper'
+
+
+params:
+  # 色のスタイル
+  color: light                           # linen、wheat、gray、light
+
+  # ヘッダーのソーシャルアイコン
+  rss: true                                # RSSアイコンを表示する
+
+  # ホームページのプロフィール
+  avatar: GRAVATAR_EMAIL                 # Gravatarのメールアドレスまたは画像URL
+  name: Ziaenso
+  bio: Hello!!
+
+  # その他
+  disableHLJS: false                        # highlight.jsを無効にする
+  disablePostNavigation: false              # 投稿ナビゲーションを無効にする
+  monoDarkIcon: false                       # 単色ダークモードアイコンを表示する
+  math: true                               # KaTeX数式のグローバル有効化
+  favicon: "favicon.ico"                   # デフォルトのファビコンをカスタマイズする
+  appleTouchIcon: "apple-touch-icon.png"   # デフォルトのAppleタッチアイコンをカスタマイズする
