@@ -3,12 +3,16 @@ languageCode: 'en-us'
 title: 'My New Hugo Site'
 theme: 'paper'
 
+permalinks:
+  post: '/:year/:month/:slug/'
+  page: '/:slug/'
 
 params:
   # 色のスタイル
   color: light                           # linen、wheat、gray、light
 
   # ヘッダーのソーシャルアイコン
+  twitter: Ziaenso_
   rss: true                                # RSSアイコンを表示する
 
   # ホームページのプロフィール
