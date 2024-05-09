@@ -1,21 +1,20 @@
-/* CSSを追加 */
 .back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #007bff;
+    background-color: #000;
+    border: 1px solid #ddd;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s ease;
+    pointer-events: none;
     opacity: 0;
+    cursor: pointer;
 }
 
 .back-to-top.show {
     opacity: 1;
-}
-
-.back-to-top:hover {
-    background-color: #0056b3;
+    pointer-events: all;
 }
