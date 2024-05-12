@@ -24,6 +24,7 @@ params:
   color: light                           # linen、wheat、gray、light
 
   # ヘッダーのソーシャルアイコン
+  TWITTER: samenoko_112
   rss: true                                # RSSアイコンを表示する
 
   # ホームページのプロフィール
