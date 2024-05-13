@@ -18,3 +18,7 @@
     opacity: 1;
     pointer-events: all;
 }
+
+pre,code {
+    font-family: 'Hack','Noto Sans JP',monospace;
+}
