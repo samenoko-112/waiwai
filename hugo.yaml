@@ -18,6 +18,9 @@ menu:
     - name: 'About'
       url: '/about/'
       weight: 2
+    - name: 'SVG2PNG'
+      url: '/svg2png/'
+      weight: 3
 
 params:
   # 色のスタイル
